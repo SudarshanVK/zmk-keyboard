@@ -44,7 +44,7 @@
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp PAGE_UP        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS  &kp PLUS
 &kp F1      &kp F2            &kp F3        &kp F4        &kp F5        &kp F6                          &kp PAGE_DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp STAR   &kp F12
 &kp F7      &kp F8            &kp F9        &kp F10       &kp F11       &kp F12                         &kp DOUBLE_QUOTES  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RPAR   &kp TILDE
-&trans      &ext_power EP_ON  &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans             &kp MINUS     &kp NUMBER_0  &kp PERIOD    &kp RBRC   &kp PIPE
+&trans      &ext_power EP_ON  &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans             &kp KP_MINUS  &kp NUMBER_0  &kp PERIOD    &kp RBRC   &kp PIPE
                                             &trans        &trans        &trans        &trans    &trans  &trans             &trans        &trans
             >;
 
@@ -60,11 +60,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &trans     &trans        &trans     &kp C_VOL_DN  &kp C_VOLUME_UP
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7     &kp UP_ARROW  &kp N9     &kp N0        &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN      &kp RIGHT  &kp RIGHT     &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp UNDER  &kp EQUAL     &kp LBKT   &kp RBKT      &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
+&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &trans          &trans        &trans     &kp C_VOL_DN  &kp C_VOLUME_UP
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7          &kp UP_ARROW  &kp N9     &kp N0        &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT        &kp DOWN      &kp RIGHT  &kp RIGHT     &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp UNDERSCORE  &kp EQUAL     &kp LBKT   &kp RBKT      &kp BSLH
+                           &trans   &trans   &trans   &trans    &trans  &trans       &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
